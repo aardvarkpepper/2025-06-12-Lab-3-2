@@ -1,0 +1,35 @@
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #D5E1EF;
+  height: 100vh;
+  grid-template-columns: minmax(24px 1fr 24px);
+}
+
+.frame {
+  background-color: green;
+  width: calc(5.35211268vw + 306.9295774px);
+  height: calc(11.79775281vh + 405.2022472px);
+}
+
+.imagecontainer {
+  display: grid;
+  grid-template-columns: 24px 1fr 24px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.illustrationarticle {
+  /* overflow: hidden;
+  vertical-align: middle;
+  object-fit: cover; */
+  border-radius: 10px;
+}
+
+
+
+.frame {
+  border-radius: 20px;
+}
+
