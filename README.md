@@ -1,3 +1,8 @@
+First challenge:  "Your challenge is to build out this QR code component and get it looking as close to the design as possible." [Link on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
+
+Second challenge: "Your challenge is to build out this blog preview card and get it looking as close to the design as possible." [Link to Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS)
+
+
 # Reflection
 
 After completing these challenges, take a few minutes to answer the following questions:
