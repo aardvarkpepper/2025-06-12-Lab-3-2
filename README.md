@@ -15,4 +15,6 @@ I often got element size, spacing, and configuration specifications direcly from
 
 With the first challenge, I set text exactly as specified in the Figma style guide but didn't get the results I wanted.  I ended up tinkering with margins a bit to reproduce the sample.
 
+With the second challenge, I found text sizing design specifications ill-defined.  The Figma "Design System" had Text Preset 1, Text Preset 2, Text Preset 3, Text Preset 3(Bold).  Yet the designs had a total of at least three different sized bold fonts between Desktop and Mobile views.  I expect I'll end up ignoring the fixed font size specifications, as that's pretty much exactly what the wireframes do.
+
 Community resources and feedback can always help improve a developer - not just that on Frontend Mentor.  Resources can save time looking things up and/or give insight into industry standards.  Feedback can give insight into things that a developer wouldn't think of on their own.
