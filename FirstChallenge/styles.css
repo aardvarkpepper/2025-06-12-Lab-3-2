@@ -10,7 +10,7 @@ body {
   width: 320px;
   height: 499px;
   background-color: white;
-  border-radius: 1rem;
+  border-radius: 20px;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ body {
   margin-top: 16px;
   width: 288px;
   height: 288px;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .title {
