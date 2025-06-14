@@ -11,11 +11,12 @@ img {
 }
 
 .frame {
-  background-color: green;
+  background-color: white;
   width: calc(5.35211268vw + 306.9295774px);
   height: calc(14.189189191vh + 385.78378378px);
   filter: drop-shadow(8px 8px black);
   border-radius: 20px;
+  border: 1px solid #111111;
 }
 
 .frame:hover {
@@ -26,7 +27,7 @@ img {
   margin: 24px;
   height: 200px;
   width: auto;
-  background-color: pink;
+  background-color: white;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -37,11 +38,13 @@ img {
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 24px;
-  background-color: red;
+  background-color: white;
   display: flex;
   flex-direction: column;
   gap: 12px;
   font-family: 'Figtree', Courier, monospace;
+  color: #111111;
+  line-height: 130%;
 }
 
 .tccategory {
@@ -51,7 +54,8 @@ img {
 
 .tccategory span {
   background-color: #F4D04E;
-  padding: 6px;
+  padding: 4px 9px 4px 9px;
+  border-radius: 4px;
 }
 
 .tcpublishdate {
@@ -72,11 +76,13 @@ img {
 }
 
 .profilecontainer {
-  background-color: blue;
+  background-color: white;
   margin-left: 24px;
   margin-right: 24px;
   font-weight: 800;
   font-family: 'Figtree', Courier, monospace;
+  color: #111111;
+  line-height: 130%;
   font-size: 1.695402vh;
   display: flex;
   align-items: center;
@@ -89,5 +95,5 @@ img {
 }
 
 .profilecontainer span {
-  margin-left: 12px;
+  padding-left: 12px;
 }
