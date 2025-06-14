@@ -29,7 +29,7 @@ So I considered using a lot of different things that weren't used in class, rang
 
 For mobile, (frame x/y) 327/501 = approx 0.653.  Desktop (frame x/y) 384/522 = approx 0.736.
 For mobile, (frame to viewport x) 327/375 = approx 0.872  Desktop 384/1440 = approx 0.267.
-For mobile, (frame to viewport y) 501/812 = approx 0.617.  Desktop 522/990 = 0.58.
+For mobile, (frame to viewport y) 501/812 = approx 0.617.  Desktop 522/960 = 0.544.
 
 There is no simple obvious relation, so I use algebra to figure out the value of a constant for calc to work on.  Frame width must be expressed as a multiple of viewport width plus a constant.  I'll make a lot of assumptions for expediency (viewport rectangular and longest on x-axis)
 
@@ -57,24 +57,34 @@ The image container is 24px inside the frame.  The height is fixed at 200, but t
 
 ## Text size
 
-Similar to the frame size issue, the desktop textbox is 336x194 for 1440x960, the mobile textbox 279x193, quite different ratios.  Much of this could be ignored as internal text elements had spacing of 12px vertically between them in both desktop and mobile.
+Similar to the frame size issue, the desktop textbox is 336x194 for 1440x960, the mobile textbox 279x193, quite different ratios.  Taking some shortcuts to get a rougher approximation -
 
-336 194 textbox desktop (1440 x )
+336 194 textbox desktop (1440 x 960)
 learning
 text preset 3 bold; figtree extra bold 14px, 150% line height, 0px letter spacing
 published
 text preset 3;figtree medium 14px, 150% line height, 0px letter spacing
+14 / 960 = 0.01458333333
 html&css
 text preset 1; figtree extra bold 24px, 150% line height, 0px letter spacing
+24 / 960 = 0.025
 these
 text preset 2; figtree medium 16px, 150% line height, 0px letter spacing
+16 / 960 = 0.0166666667
 
-279 193 textbox mobile
+279 193 textbox mobile (375 x 812)
 learning
 Figtree extra bold 12px line height 150% letter spacing 0%
 published
 figtree medium 12px line height 150% letter spacing 0%
+12 / 812 = 0.0147783251
 html&css
 figtree extra bold 20px 150% line height letter spacing 0%
+20 / 812 = 0.0246305419
 these
 figtree medium 14px 150% line height letter spacing 0%
+14 / 812 = 0.0172413793
+
+learning/published avg 0.0146808292
+html&css avg 0.02481527095
+these avg 0.01695402

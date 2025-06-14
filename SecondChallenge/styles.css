@@ -36,12 +36,58 @@ img {
 .textcontainer {
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 24px;
   background-color: red;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  font-family: 'Figtree', Courier, monospace;
 }
 
 .tccategory {
+  font-weight: 800;
+  font-size: 1.46808292vh;
+}
 
+.tccategory span {
+  background-color: #F4D04E;
+  padding: 6px;
+}
+
+.tcpublishdate {
+  font-size: 1.46808292vh;
+}
+
+.tctitle {
+  font-weight: 800;
+  font-size: 2.481527095vh;
+}
+
+.tcbody {
+  font-size: 1.695402vh;
+}
+
+.tcbody p {
+  margin: 1px;
+}
+
+.profilecontainer {
+  background-color: blue;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: 800;
+  font-family: 'Figtree', Courier, monospace;
+  font-size: 1.695402vh;
+  display: flex;
+  align-items: center;
+  height: 32px;
+}
+
+.profilecontainer img {
+  height: 32px;
+  width: auto;
+}
+
+.profilecontainer span {
+  margin-left: 12px;
 }
