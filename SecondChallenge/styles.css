@@ -3,7 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #D5E1EF;
+  background-color: hsla(47, 88%, 63%, 1)
 }
 
 img {
